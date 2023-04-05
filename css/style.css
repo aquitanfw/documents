@@ -63,6 +63,30 @@
 
 @import './global.css';
 
+
+/*hashtags*/
+.document-hashtag-item {
+    font-size: 12px;
+    color: #f6f6f6;
+    background-color: #999;
+    display: inline-block;
+    padding: 2px 3px;
+    border-radius: 5px;
+}
+
+.document-hashtag-item a {
+    color: #fff;
+}
+
+.document-hashtags-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px 0;
+}
 .documents-inner {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -199,30 +223,6 @@
     -webkit-transition: all .2s linear;
     -o-transition: all .2s linear;
     transition: all .2s linear;
-}
-
-/*hashtags*/
-.document-hashtag-item {
-    font-size: 12px;
-    color: #f6f6f6;
-    background-color: #999;
-    display: inline-block;
-    padding: 2px 3px;
-    border-radius: 5px;
-}
-
-.document-hashtag-item a {
-    color: #fff;
-}
-
-.document-hashtags-block {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    gap: 10px;
-    margin: 30px 0;
 }
 
 .document-download {
